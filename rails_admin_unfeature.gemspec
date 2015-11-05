@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = RailsAdminUnfeature::VERSION
   s.authors     = ["Dave Kaplan"]
   s.email       = ["dave@exygy.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsAdminUnfeature."
-  s.description = "TODO: Description of RailsAdminUnfeature."
+  s.homepage    = "https://github.com/Exygy/rails_admin_unfeature"
+  s.summary     = "Bulk unfeature for Rails Admin."
+  s.description = "Adds an ability to set 'featured_type: :unfeatured' as a bulk action for Rails Admin."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
